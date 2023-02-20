@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="wrapper">
+        <header>Weather App</header>
+        <div class="main-section">
+            <div class="search-bar">
+                <i class='bx bx-search search-icon'></i>
+                <input type="text" name="search-city" class="search-input" placeholder="Tìm kiếm thành phố">
+            </div>
+            <span class="error"></span>
+            <img src="#" alt="weather-icon" class="weather-icon">
+            <div class="temp-1">
+                <span class="numb-1">--</span>
+                <span class="deg-1">°</span>C
+            </div>
+            <div class="weather">--</div>
+            <div class="location">
+                <i class='bx bx-map'></i>
+                <span class="city-name">-- , --</span>
+            </div>
+        </div>
+
+        <div class="addtional-section">
+            <div class="column fells">
+                <i class='bx bxs-thermometer'></i>
+                <div class="details">
+                    <p>Cảm giác như</p>
+                    <div class="temp-2">
+                        <span class="numb-2">--</span>
+                        <span class="deg-2">°</span>C
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="column humidity">
+                <i class='bx bxs-droplet-half'></i>               
+                <div class="details">
+                    <p>Độ ẩm</p>
+                    <span class="numb-3">--%</span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

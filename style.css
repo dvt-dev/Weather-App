@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #43affc;
+}
+
+#wrapper {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    color: #43affc;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search-bar {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.search-icon {
+    padding-right: 10px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+    margin: -12px 0 12px;
+    font-size: 14px;
+}
+
+.main-section img {
+    max-width: 125px;
+}
+
+.temp-1 {
+    font-size: 72px;
+    font-weight: 500;
+    display: flex;
+}
+
+.numb-1 {
+    font-weight: 600;
+}
+
+.deg-1 {
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 10px 5px 0 0;
+}
+
+.weather {
+    font-size: 20px;
+    text-align: center;
+    margin: -5px 20px 15px;  
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.location i {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.addtional-section {
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #bfbfbf;
+    /* padding: 20px; */
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.column i {
+    display: block;
+    font-size: 40px;
+    color: #43affc;
+    margin-right: 4px;
+}
+
+
+
+.temp-2, .numb-3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.temp-2 {
+    display: flex;
+}
+
+.deg-2 {
+    display: block;
+    font-size: 17px;
+}
+
+.details p {
+    font-size: 14px;
+    margin-top: -4px;
+}
+
+.humidity {
+    border-left: 1px solid #bfbfbf;
+}
